@@ -3,3 +3,11 @@ languageCode = 'en-us'
 title = 'Test hugo site'
 description = 'This site was build by using [hugo templates](https://github.com/pages-hugoconf-2022/hugo-pages-template)'
 theme = "ananke"
+defaultContentLanguage = 'ua'
+[languages]
+  [languages.ua]
+    title = 'Клуб Україна'
+    weight = 1
+  [languages.en]
+    title = 'Klub Ukraina'
+    weight = 2
